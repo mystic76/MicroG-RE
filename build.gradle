@@ -5,8 +5,8 @@
 
 buildscript {
     ext.applicationNamespace = "com.google.android.gms"
-    ext.basePackageName = "app.revanced"
-
+    ext.basePackageName = "app.abhiram79"
+      // revanced
     ext.annotationVersion = '1.8.2'
     ext.appcompatVersion = '1.7.0'
     ext.biometricVersion = '1.1.0'
