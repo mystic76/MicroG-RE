@@ -50,12 +50,12 @@ jobs:
         uses: actions/upload-artifact@v3
         with:
           name: app-release
-          path: /home/runner/work/MicroG/MicroG/play-services-core/build/outputs/apk/default/release/app.revanced.android.gms-243864000.apk
+          path: /home/runner/work/MicroG-RE/MicroG-RE/play-services-core/build/outputs/apk/default/release/app.revanced.android.gms-243864000.apk
 
       - name: Upload 
         uses: actions/upload-artifact@v3
         with:
           name: release
-          path: /home/runner/work/MicroG/MicroG/play-services-core/build/outputs/apk/default/release/*.apk
+          path: /home/runner/work/MicroG-RE/MicroG-RE/play-services-core/build/outputs/apk/default/release/*.apk
 
 
