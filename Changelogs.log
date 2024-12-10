@@ -1,0 +1,23 @@
+// MICRO GMS CORE Project
+// Fork of MicroG with improved features and material design
+
+## Changelogs 10/12/24. 
+
+- update strings in play-services-core
+- change default app prefrences xml
+- disabled auto hide app in launcher
+- changed launcher icon , monochrome icon
+- changed urls in settings screen
+- changes in build.gradle.kts
+- Removed unwanted codes
+- added new package name
+- added code snippet to detect YT revanced app 
+- downgrade version ( fresh release )
+- update gradle
+- bump up java version 
+- bump up Android SDK
+- target sdk to 35. android 15 builds
+- minimum api level 24
+- fixed workflow output path
+
+// changelogs  10/12/24 enda
