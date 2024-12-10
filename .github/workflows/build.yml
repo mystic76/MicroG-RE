@@ -45,3 +45,17 @@ jobs:
         run: "./gradlew --no-daemon assemble"
       - name: "Execute Gradle check"
         run: "./gradlew --no-daemon check"
+
+      - name: Upload apks
+        uses: actions/upload-artifact@v3
+        with:
+          name: app-release
+          path: /home/runner/work/MicroG/MicroG/play-services-core/build/outputs/apk/default/release/app.revanced.android.gms-243864000.apk
+
+      - name: Upload 
+        uses: actions/upload-artifact@v3
+        with:
+          name: release
+          path: /home/runner/work/MicroG/MicroG/play-services-core/build/outputs/apk/default/release/*.apk
+
+
