@@ -82,13 +82,14 @@ allprojects {
     apply plugin: 'idea'
 
     group = 'org.microg.gms'
-    ext.appVersionName = 1.0
-    ext.appVersionCode = 20000
+    ext.appVersionName = 1.0.0
+    ext.appVersionCode = 243864000
     ext.baseVersion = ext.appVersionCode.toString()[0..1] + '.' + ext.appVersionCode.toString()[2..3] + '.' + ext.appVersionCode.toString()[4..5]
     version = ext.appVersionName+" GMS-"+ext.baseVersion.replaceAll("\\.", "")
     ext.isReleaseVersion = false
 }
-
+// 243864000
+// 5.9
 subprojects {
     repositories {
         mavenCentral()
