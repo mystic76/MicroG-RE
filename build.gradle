@@ -4,8 +4,8 @@
  */
 
 buildscript {
-    ext.applicationNamespace = "com.google.android.gms"
-    ext.basePackageName = "app.revanced"
+    ext.applicationNamespace = "GmsCore"
+    ext.basePackageName = "com.abhiram79"
 
     ext.annotationVersion = '1.8.2'
     ext.appcompatVersion = '1.7.0'
@@ -82,8 +82,8 @@ allprojects {
     apply plugin: 'idea'
 
     group = 'org.microg.gms'
-    ext.appVersionName = 5.9
-    ext.appVersionCode = 243864000
+    ext.appVersionName = 1.0
+    ext.appVersionCode = 1
     ext.baseVersion = ext.appVersionCode.toString()[0..1] + '.' + ext.appVersionCode.toString()[2..3] + '.' + ext.appVersionCode.toString()[4..5]
     version = ext.appVersionName+" GMS-"+ext.baseVersion.replaceAll("\\.", "")
     ext.isReleaseVersion = false
